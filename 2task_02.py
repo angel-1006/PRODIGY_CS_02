@@ -1,8 +1,7 @@
 from tkinter import *
 from tkinter import filedialog
 
-root=Tk()
-root.geometry("500x500")
+
 
 def encrypt_image():
     file1=filedialog.askopenfile(mode='r',filetype=[('jpg file','*.jpg')])
@@ -39,6 +38,11 @@ def decrypt_image():
         fi1=open(file_name,'wb')
         fi1.write(image)
         fi1.close()
+
+root=Tk()
+root.geometry("500x500")
+root.title("ImgCrypt")
+root.config(bg="black")
 
 b1=Button(root,text="encrypt",command=encrypt_image)
 b1.place(x=70,y=10)
