@@ -1,8 +1,6 @@
 from tkinter import *
 from tkinter import filedialog
 
-
-
 def encrypt_image():
     file1=filedialog.askopenfile(mode='r',filetype=[('jpg file','*.jpg')])
     if file1 is not None:
