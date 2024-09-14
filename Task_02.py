@@ -50,5 +50,5 @@ entry1=Text(root,height=1,width=10)
 entry1.place(x=50,y=50)
 entry2=Text(root,height=1,width=10)
 entry2.place(x=150,y=50)
-base.mainloop()
+root.mainloop()
 
