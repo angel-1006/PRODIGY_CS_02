@@ -39,8 +39,8 @@ def decrypt_image():
 
 root=Tk()
 root.geometry("500x500")
-root.title("ImgCrypt")
-root.config(bg="black")
+root.title("MaskImg")
+root.config(bg="white")
 
 b1=Button(root,text="encrypt",command=encrypt_image)
 b1.place(x=70,y=10)
